@@ -1,0 +1,34 @@
+{
+  "name": "omeglebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "nexe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.4",
+    "@octokit/rest": "^17.9.2",
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "cleverbot-free": "^1.0.3",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "downloads-folder": "^1.0.4",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "keypress": "^0.2.1",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.5",
+    "omegle-node": "^1.1.4",
+    "simple-git": "^2.5.0",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.2"
+  }
+}
